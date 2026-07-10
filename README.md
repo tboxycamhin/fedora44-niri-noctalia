@@ -9,7 +9,7 @@ sudo dnf install -y git
 
 git clone https://github.com/YOURUSERNAME/fedora44-niri-noctalia-v2.git
 
-cd fedora44-niri-noctalia-v2
+cd fedora44-niri-noctalia
 
 chmod +x install.sh
 
