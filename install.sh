@@ -120,7 +120,8 @@ fastfetch \
 wev \
 xdg-desktop-portal-gtk \
 xdg-desktop-portal-gnome \
-xwayland-satellite
+xwayland-satellite \
+steam
 
 echo "[6/11] Installing Noctalia..."
 sudo dnf install -y noctalia
