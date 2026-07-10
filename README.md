@@ -77,6 +77,7 @@ The `install.sh` script performs the following actions:
 | Mako | Notifications |
 | Firefox | Web browser |
 | Thunar | File manager |
+| Steam | Gaming |
 | Pavucontrol | Audio control |
 | wl-clipboard | Clipboard utilities |
 | btop | System monitor |
