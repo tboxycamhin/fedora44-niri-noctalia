@@ -15,7 +15,7 @@ sudo dnf install -y git
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOURUSERNAME/fedora44-niri-noctalia-v2.git
+git clone https://github.com/tboxycamhin/fedora44-niri-noctalia.git
 ```
 
 ## Enter Repository
