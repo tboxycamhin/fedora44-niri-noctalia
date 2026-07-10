@@ -1,0 +1,138 @@
+
+
+    // BEGIN NOCTALIA KEYBINDS
+    // Custom Noctalia v5 IPC bindings injected by install.sh.
+
+    Mod+Space repeat=false {
+        spawn "noctalia" "msg" "panel-toggle" "launcher";
+    }
+
+    Mod+C repeat=false {
+        spawn "noctalia" "msg" "panel-toggle" "control-center";
+    }
+
+    Mod+Shift+C repeat=false {
+        spawn "noctalia" "msg" "panel-toggle" "clipboard";
+    }
+
+    Mod+W repeat=false {
+        spawn "noctalia" "msg" "panel-toggle" "wallpaper";
+    }
+
+    Mod+Escape repeat=false {
+        spawn "noctalia" "msg" "panel-toggle" "session";
+    }
+
+    Mod+Comma repeat=false {
+        spawn "noctalia" "msg" "settings-toggle";
+    }
+
+    Alt+Tab repeat=false {
+        spawn "noctalia" "msg" "window-switcher";
+    }
+
+    Mod+B repeat=false {
+        spawn "noctalia" "msg" "bar-toggle";
+    }
+
+    Mod+Shift+D repeat=false {
+        spawn "noctalia" "msg" "dock-toggle";
+    }
+
+    Mod+Shift+W repeat=false {
+        spawn "noctalia" "msg" "desktop-widgets-toggle";
+    }
+
+    Mod+Ctrl+W repeat=false {
+        spawn "noctalia" "msg" "desktop-widgets-toggle-edit";
+    }
+
+    Print repeat=false {
+        spawn "noctalia" "msg" "screenshot-region";
+    }
+
+    Shift+Print repeat=false {
+        spawn "noctalia" "msg" "screenshot-screen";
+    }
+
+    XF86AudioRaiseVolume {
+        spawn "noctalia" "msg" "volume-up";
+    }
+
+    XF86AudioLowerVolume {
+        spawn "noctalia" "msg" "volume-down";
+    }
+
+    XF86AudioMute repeat=false {
+        spawn "noctalia" "msg" "volume-mute";
+    }
+
+    XF86AudioMicMute repeat=false {
+        spawn "noctalia" "msg" "mic-mute";
+    }
+
+    XF86MonBrightnessUp {
+        spawn "noctalia" "msg" "brightness-up";
+    }
+
+    XF86MonBrightnessDown {
+        spawn "noctalia" "msg" "brightness-down";
+    }
+
+    XF86AudioPlay repeat=false {
+        spawn "noctalia" "msg" "media-play-pause";
+    }
+
+    XF86AudioNext repeat=false {
+        spawn "noctalia" "msg" "media-next";
+    }
+
+    XF86AudioPrev repeat=false {
+        spawn "noctalia" "msg" "media-previous";
+    }
+
+    Mod+Alt+L repeat=false {
+        spawn "noctalia" "msg" "session" "lock";
+    }
+
+    Mod+Shift+S repeat=false {
+        spawn "noctalia" "msg" "session" "suspend";
+    }
+
+    Mod+Ctrl+Alt+L repeat=false {
+        spawn "noctalia" "msg" "session" "lock-and-suspend";
+    }
+
+    Mod+Ctrl+Delete repeat=false {
+        spawn "noctalia" "msg" "session" "reboot";
+    }
+
+    Mod+Ctrl+End repeat=false {
+        spawn "noctalia" "msg" "session" "shutdown";
+    }
+
+    Mod+N repeat=false {
+        spawn "noctalia" "msg" "nightlight-toggle";
+    }
+
+    Mod+Shift+N repeat=false {
+        spawn "noctalia" "msg" "nightlight-force-toggle";
+    }
+
+    Mod+F8 repeat=false {
+        spawn "noctalia" "msg" "wifi-toggle";
+    }
+
+    Mod+F9 repeat=false {
+        spawn "noctalia" "msg" "bluetooth-toggle";
+    }
+
+    Mod+F10 repeat=false {
+        spawn "noctalia" "msg" "caffeine-toggle";
+    }
+
+    Mod+Shift+R repeat=false {
+        spawn "noctalia" "msg" "config-reload";
+    }
+
+    // END NOCTALIA KEYBINDS
